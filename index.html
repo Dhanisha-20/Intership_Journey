@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Internship Journey</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#0f172a,#581c87,#111827);
+      color:white;
+      min-height:100vh;
+      padding:40px;
+    }
+
+    h1{
+      text-align:center;
+      font-size:50px;
+      margin-bottom:15px;
+    }
+
+    .subtitle{
+      text-align:center;
+      color:#d1d5db;
+      margin-bottom:50px;
+      font-size:18px;
+    }
+
+    .container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:30px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.1);
+      border:1px solid rgba(255,255,255,0.2);
+      padding:25px;
+      border-radius:20px;
+      backdrop-filter: blur(10px);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card h2{
+      color:#67e8f9;
+      margin-bottom:15px;
+    }
+
+    .card p{
+      color:#e5e7eb;
+      margin-bottom:25px;
+      line-height:1.6;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 20px;
+      background:#22d3ee;
+      color:black;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#67e8f9;
+    }
+
+    footer{
+      text-align:center;
+      margin-top:50px;
+      color:#cbd5e1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Internship Journey</h1>
+
+  <p class="subtitle">
+    A showcase of my internship work, repositories, documents, UI designs, and professional profiles.
+  </p>
+
+  <div class="container">
+     <div class="card">
+      <h2>Hall Booking App</h2>
+      <p>This is a web application developed during my internship for booking halls and managing reservations.
+      </p>
+      <a href="https://sjc-campus-hall-allocation.vercel.app/" class="btn" target="_blank">View App</a>
+    </div>
+
+    <div class="card">
+      <h2>My GitHub Profile</h2>
+      <p>My first internship task was creating my GitHub account and uploading projects.</p>
+      <a href="https://github.com/Dhanisha-20/Intern_Repo.git" class="btn" target="_blank">View GitHub</a>
+    </div>
+
+    <div class="card">
+      <h2>Team GitHub Repository</h2>
+      <p>Explore our collaborative team project repository.</p>
+      <a href="https://github.com/srirams00/Hall-booking.git" class="btn">Open Repository</a>
+    </div>
+
+    <div class="card">
+      <h2>POC Document</h2>
+      <p>Proof of Concept document prepared during the internship.</p>
+      <a href="Poc 3.pdf" class="btn">View Document</a>
+    </div>
+
+    <div class="card">
+      <h2>Figma UI Design</h2>
+      <p>UI/UX prototype and wireframe designs created using Figma.</p>
+      <a href="https://www.figma.com/proto/SXfPZc24jny2IvGCp2DvwR/login-page?node-id=18-104&t=TzVBHtYQxuvHjEcj-1" class="btn">Open Figma</a>
+    </div>
+
+    <div class="card">
+      <h2>Architecture Drawings</h2>
+      <p>Architecture diagrams and system workflow designs.</p>
+      <a href="System (2).jpg" class="btn">View Architecture</a>
+    </div>
+
+    <div class="card">
+      <h2>Resume</h2>
+      <p>My updated professional resume with skills and achievements.</p>
+      <a href="Resume_SoftSkill2.pdf" class="btn">View Resume</a>
+    </div>
+
+    <div class="card">
+      <h2>LinkedIn Profile</h2>
+      <p>Connect with me professionally on LinkedIn.</p>
+      <a href="http://www.linkedin.com/in/dhanisha-ravindran" class="btn">Visit LinkedIn</a>
+    </div>
+
+    <div class="card">
+      <h2>Portfolio Website</h2>
+      <p>Explore my projects, certifications, and technical skills.</p>
+      <a href="https://dhanisha-portfolio.vercel.app/" class="btn">Open Portfolio</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Designed by Dhanisha | Internship Journey Website</p>
+  </footer>
+
+</body>
+</html>
